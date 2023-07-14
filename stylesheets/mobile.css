@@ -1,0 +1,246 @@
+@media only screen and (max-width: 1024px) {
+
+	body.redesign1 {
+		background-position: 10% 0px;
+		background-size: 250% auto;
+	}
+	
+	.redesign1 header {
+		height: 100px;
+		background-color: #fcf9f9;
+	}
+
+	.redesign1 .content-wrapper {
+		margin-bottom: 40px;
+	}
+
+	.redesign1 .obp-background {
+		margin-top: -120px;
+	}
+
+	.redesign1 footer {
+		height: 120px;
+		padding: 0;
+	}
+
+	.redesign1 #outer {
+		padding-top: 220px;
+	}
+
+	.redesign1 ul.footer {
+		margin-top: 40px;
+	}
+
+	.redesign1 .row {
+		width: auto !important;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (orientation : portrait) {
+	body.redesign1 {
+		background-size: 300% auto;
+	}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.redesign1 .top-bar ul.right > li {
+		background-color: #ffffff;
+	}
+
+	.redesign1 .bubble-error .error_box,
+	.redesign1 .bubble-explanation .arrow_box,
+	.redesign1 .bubble-explanation .arrow_box.requirements {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 90%;
+		margin: 20px auto 10px;
+	}
+
+	.redesign1 .arrow_box:after, 
+	.redesign1 .arrow_box:before {
+		top: -20px;
+		bottom: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+
+	.redesign1 .arrow_box:after {
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: #ffffff;
+		border-width: 18px;
+		margin-left: -18px;
+	}
+
+	.redesign1 .arrow_box:before {
+		border-color: rgba(255, 112, 0, 0);
+		border-bottom-color: #ff7000;
+		border-width: 18px;
+		margin-left: -18px;
+	}
+
+	.redesign1 .arrow_box.error_box:before {
+		border-right-color: transparent;
+	}
+
+	.redesign1 h2, 
+	.redesign1 .h2 {
+		text-align: center;
+		font-size: 25px;
+		margin-bottom: 25px;
+		margin-top: 20px;
+	}
+
+	/*.redesign1 header {
+		height: 100px;
+		background-color: #fcf9f9;
+	}
+
+	.redesign1 .content-wrapper {
+		margin-bottom: 40px;
+	}
+
+	.redesign1 .obp-background {
+		margin-top: -120px;
+	}
+
+	.redesign1 footer {
+		height: 120px;
+		padding: 0;
+	}
+
+	.redesign1 #outer {
+		padding-top: 220px;
+	}
+
+	.redesign1 ul.footer {
+		margin-top: 40px;
+	}*/
+
+	/*body.redesign1 {
+		background-position: 10% 0px;
+		background-size: 250% auto;
+	}*/
+
+	.row .mobile-three {
+		width: 90% !important;
+	}
+
+	.row .mobile-one {
+		width: 10% !important;
+	}
+
+	.arrow_box p, .error-block p {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	.redesign1 .note {
+		margin-top: -20px;
+	}
+
+	.eleven.mobile-three.columns .three.columns {
+		float: left;
+		width: 28% !important;
+		margin-right: 5%;
+	}
+
+	.eleven.mobile-three.columns .four.columns {
+		float: right;
+		width: 33.333% !important;
+	}
+
+	.redesign1 .street-name .row .nine {
+		float: left;
+		width: 66.667% !important;
+	}
+
+	.redesign1 .street-name .row .two {
+		float: right;
+		 width: 25% !important;
+	}
+
+	.redesign1 .moblile-phone .row .two {
+		float: left;
+		width: 25% !important;
+	}
+
+	.redesign1 .moblile-phone .row .seven  {
+		float: right;
+		width: 41.667% !important;
+	}
+
+
+	.redesign1 .row .six.columns.centered .small-inputs {
+		margin-top: 50px; 
+	}
+
+	.redesign1 .moblile-phone label.inline  {
+		line-height: 32px;
+		font-size: 1.875em;
+	}
+
+	.redesign1 .simply_copy_text {
+		margin-top: 0;
+		font-size: 1em;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	.redesign1 .moblile-phone .row .two .five {
+		float: left;
+		width: 50% !important;
+		margin-top: 8px;
+	}
+
+	body.redesign1 {
+		background-position: 15% 100px;
+		background-size: 450% auto;
+	}
+
+	.redesign1 .row .mobile-three {
+		width: 85% !important;
+	}
+
+	.redesign1 .row .mobile-one {
+		width: 15% !important;
+	}
+
+	.redesign1 .row .six.columns.centered label.inline {
+		line-height: normal;
+	}
+
+	.redesign1 .row .six.columns.centered .small-inputs {
+		margin-top: 30px;
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	/*.redesign1 .row {
+		width: auto !important;
+	}*/
+
+	.redesign1 .row .six.columns.centered {
+		width: 58.333%;
+	}
+
+	.redesign1 .row .six.columns.centeredthanks_for_signing_up {
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 940px) {
+	.redesign1 .top-bar ul.right > li {
+		background-color: #ffffff;
+	}
+}

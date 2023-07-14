@@ -1,0 +1,216 @@
+p { font-size: 14px; line-height: 1.6; margin-bottom: 17px; }
+
+.wrapper #outer {
+    margin-top:-150px;/*footer height - this drags the outer 60px up through the top of the monitor */
+}
+.wrapper footer {
+  height: 100px;/* must match negative margin of #outer */
+  padding-top: 0;
+}
+.wrapper header {
+  padding-top: 170px;
+}
+
+.landing_bg {
+  position: relative;
+  margin-top: -93px;
+/*  width: 466px;
+  height: 466px;
+*/}
+
+.landing_cover_bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+   background-position: center;  /* Internet Explorer 7/8 */
+}
+
+.landing_cover_bg-mobile_payment,
+.landing_cover_bg-whats_yapital {
+  padding-top: 100%;  /* 466px/466px = 1 */
+  background-image: url(../images/landing/whats_yapital_bg.png);
+}
+
+.landing_cover_bg-mobile_payment {
+  background-image: url(../images/landing/mobile_payment_bg.png);
+}
+
+
+.landing_cover_container-security,
+.landing_cover_container-mobile_payment,
+.landing_cover_container-whats_yapital,
+.landing_cover_container-costs_and_fees {
+  /* The background image must be 466px wide */
+  max-width: 466px;
+/*  max-width: 250px;*/
+}
+@media only screen and (max-width: 580px) {
+  .landing_cover_container-security,
+  .landing_cover_container-mobile_payment,
+  .landing_cover_container-whats_yapital,
+  .landing_cover_container-costs_and_fees,
+  .landing_cover_container-contact {
+  /* shrinking the background to 250px */
+      max-width: 225px;
+  }
+}
+
+.landing_cover_container-contact,
+.landing_cover_container-download,
+.landing_cover_container-support,
+.landing_cover_container-press
+ {
+  max-width: 323px;
+} 
+@media only screen and (max-width: 580px) { .landing_cover_container-contact, .landing_cover_container-press, .landing_cover_container-download, .landing_cover_container-support { max-width: 225px; } }
+                  
+.landing_cover_bg-security {
+  padding-top: 100.4%;  /* 468px/466px */
+  background-image: url(../images/landing/security_bg.png);
+}
+
+.landing_cover_bg-costs_and_fees {
+  padding-top: 100.2%;  /* 467px/466px */
+  background-image: url(../images/landing/costs_and_fees_bg.png);
+}
+
+.wrapper,
+.arc {
+  background-color: #fcfcfc;
+}
+
+.landing_cover_bg-online_check_out,
+.landing_cover_bg-yapital_mastercard {
+  margin-top: -87px;
+  padding-top: 104.88%; /* 473px/451px */;
+/*  width: 451px;
+  height: 473px;
+*/
+  background-image: url(../images/landing/online_check_out.png);
+}
+
+.landing_cover_container-online_check_out,
+.landing_cover_container-yapital_mastercard {
+  /* The background image must be 451px wide */
+  max-width: 451px;
+}
+@media only screen and (max-width: 580px) {
+  .landing_cover_container-online_check_out,
+  .landing_cover_container-yapital_mastercard {
+    /* The background image must be 451px wide */
+    max-width: 210px;
+  }
+}
+
+.landing_cover_bg-yapital_mastercard {
+  background-image: url(../images/landing/yapital_mastercard.png);
+}
+
+.landing_cover_bg-contact {
+  margin-top: -79px;
+  padding-top: 100%;  /* 323px/323px */
+  background-image: url(../images/landing/contact_bg.png);
+}
+
+.landing_cover_bg-press {
+  padding-top: 100%;  /* 323px/323px */
+  background-image: url(../images/landing/press_bg.png);
+}
+
+.landing_cover_bg-download {
+  padding-top: 100%;  /* 323px/323px */
+  background-image: url(../images/landing/download_bg.png);
+}
+
+.landing_cover_bg-support {
+  padding-top: 100%;  /* 323px/323px */
+  background-image: url(../images/landing/support_bg.png);
+}
+
+.video {
+  position: absolute;
+  bottom: 33px;
+  left: 150px;
+}
+
+.online_check_out_bg .video,
+.yapital_mastercard_bg .video {
+  bottom: 22px;
+  left: 210px;
+}
+
+.landing_title {
+  font-size: 40px;
+  line-height: 325px;
+}
+
+.landing_bg .landing_title {
+  margin-left: 17px;
+}
+
+.circle {
+  position: relative;
+  margin: -93px auto 0;
+/*  width: 323px;
+  height: 323px;
+*/  text-align: center;
+}
+
+.scroll-block {
+  padding-right: 20px;
+  height: 450px;
+  overflow-y: auto;
+}
+
+.scroll-block.faq-section {
+  height: 400px;
+}
+
+ol.list {
+  margin-left: 30px;
+  list-style: decimal;
+}
+
+ol.list li {
+  list-style-position: outside;
+}
+
+ol.list li ol {
+  margin-left: 50px;
+}
+
+.ya-landing-faq-nav a:focus {
+  color: #878787;
+}
+
+.ya-landing-faq-nav a:hover {
+  color: #de006f;
+}
+
+.terms_of_us-dl dt {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.list-la {
+  list-style-type: lower-alpha;
+}
+
+.list-lr {
+  list-style-type: lower-roman;
+}
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+p {
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+p.faq-title {
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 580px) { .sign-in-now { width: 100px; height: 76px; background-size: cover; top: -20px}  }
+@media only screen and (max-width: 440px) { .circle { margin-left: 0px} }

@@ -1,0 +1,324 @@
+body {
+  color: #878787;
+}
+
+img,
+a img {
+  border: none;
+}
+
+button {
+  font: 99% "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.h5, h5 {
+  color: #878787;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.inline-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hook-big {
+  width: 35px;
+  height: 30px;
+  background: url(../images/icons/hook-big.png) no-repeat left center;
+}
+
+.hook-grey-bg {
+  margin-right: 7px;
+  width: 32px;
+  height: 32px;
+  background: url(../images/icons/hook-grey-bg.png) no-repeat center center;
+}
+
+.error-middle {
+  width: 30px;
+  height: 30px;
+  background: url(../images/icons/error-middle.png) no-repeat left center;
+}
+
+.widget {
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+  height: 265px;
+  overflow: hidden;
+  border: 2px solid #c4c4c4;
+  text-transform: uppercase;
+}
+
+.widget .payment-decription {
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+ .widget .panel .qr-code {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.widget p {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.widget .panel {
+  padding: 5px;
+}
+
+.widget h6,
+.payment-decription,
+.nowrap {
+  white-space: nowrap;
+}
+
+.widget .loader {
+  margin: 50px;
+}
+
+.mbs {
+  margin-bottom: 5px;
+}
+
+.mbm {
+  margin-bottom: 10px;
+}
+
+.mts {
+  margin-top: 5px;
+}
+
+.mlm {
+  margin-left: 10px;
+}
+
+.mtm {
+  margin-top: 10px;
+}
+
+.mtxl {
+  margin-top: 40px;
+}
+
+.mtxxl {
+  margin-top: 60px;
+}
+
+.mtn, .mvn {
+  margin-top: 0;
+}
+
+.mbn, .mvn {
+  margin-bottom: 0;
+}
+
+.mrn, .mhn {
+  margin-right: 0;
+}
+
+.mln, .mhn {
+  margin-left: 0;
+}
+
+.mtl {
+  margin-top: 30px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.no-uppercase {
+  text-transform: none;
+}
+
+.container-mod {
+  padding: 5px 10px;
+  border: 2px solid #f2f2f2;
+}
+
+.payment_to-table {
+  overflow: hidden;
+  height: 70px;
+  word-wrap: break-word;
+}
+
+.link {
+  color: #de006f !important;
+}
+
+.strong {
+  color: #878787;
+  font-weight: bold;
+  line-height: inherit;
+}
+
+.button.alert {
+  width: 55px;
+  padding: 4px;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: #ff7000;
+  text-align: center;
+}
+
+.button.alert:hover {
+  background-color: #ff7000;
+}
+
+.button-action {
+  outline: none;
+  display: inline-block;
+  padding-top: 0.28em;
+  padding-right: 0.834em;
+  padding-bottom: 0.28em;
+  padding-left: 1.667em;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  background-color: #ff7000;
+  background-repeat: no-repeat;
+  background-position: 0.25em center;
+  border: none;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: bold;
+  font-family: inherit;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+button.button-action {
+  font-weight: normal;
+}
+
+.button-action.arrow_right_icon {
+  background-image: url(../images/buttons/arrow_right_icon.png);
+}
+
+.button-action.mark_icon {
+  background-image: url(../images/buttons/mark_icon.png);
+}
+
+.button-action.arrow_left_icon {
+  background-image: url(../images/buttons/arrow_left_icon.png);
+}
+
+.button-action.cancel_icon {
+  background-image: url(../images/buttons/cancel_icon.png);
+}
+
+.button-action.cancel_icon.inverse {
+  background-color: #878787;
+}
+
+.button-action.connect_icon {
+  background-image: url(../images/buttons/connect_icon.png);
+}
+
+.button-action.edit_icon {
+  background-image: url(../images/buttons/edit_icon.png);
+}
+
+.button-action.edit_icon {
+  background-image: url(../images/buttons/edit_icon.png);
+}
+
+.button-action.mark_icon {
+  background-image: url(../images/buttons/mark_icon.png);
+}
+
+.button-action:focus {
+  color: #fff;
+}
+
+.button-action.disabled,
+.button-action.disabled:hover,
+.button-action.standard,
+.button-action.standard:hover {
+  background-color: #b2b2b2;
+}
+
+.button-action.disabled,
+.button-action.disabled:hover {
+  opacity: 0.15;
+  cursor: default;
+}
+
+.button-action.arrow_right_icon.disabled,
+.button-action.arrow_right_icon.standard {
+  background-image: url(../images/buttons/arrow_right_icon_grey.png);
+}
+
+.button-action.arrow_left_icon.disabled,
+.button-action.arrow_left_icon.standard {
+  background-image: url(../images/buttons/arrow_left_icon_grey.png);
+}
+
+.button-action.connect_icon.disabled,
+.button-action.connect_icon.standard {
+  background-image: url(../images/buttons/connect_icon_grey.png);
+}
+
+.button-action.mark_icon.disabled,
+.button-action.mark_icon.standard {
+  background-image: url(../images/buttons/mark_icon_grey.png);
+}
+
+.button-action.edit_icon.disabled,
+.button-action.edit_icon.standard {
+  background-image: url(../images/buttons/edit_icon_grey.png);
+}
+
+.button-action.cancel_icon.inverse {
+  background-color: #8c8c8c;
+  background-image: url(../images/buttons/cancel_icon_grey.png);
+}
+
+.wordwrap {
+  word-wrap: break-word;
+}
+
+.information-section {
+  word-wrap:break-word;
+}
+
+.button-action:hover {
+  background-color: #ff7000;
+  color: #fff;
+}
+
+.button-action:active {
+  background-color: #ff7000;
+}
+
+
+.widget .widget-description {
+  padding-top: 3px;
+  margin-top: 18px;
+  font-size: 9px;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.widget-description a,
+.widget .info-link {
+  text-decoration: underline;
+}
+
+.widget .payment_to-table p.payment_to-info {
+  margin-bottom: 0;
+  height: 20px;
+  overflow: hidden;
+}
+
+.widget .payment_to-table .payment_to-info.shop_address {
+  height: 36px;
+}

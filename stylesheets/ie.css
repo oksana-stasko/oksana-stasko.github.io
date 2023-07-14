@@ -1,0 +1,128 @@
+.ya-page-modal-bg {
+  filter: alpha(opacity=96);
+}
+
+.menu li,
+.button-action,
+.nav li,
+.notification,
+ul.footer,
+.info-menu,
+.yap-box,
+.inline-icon,
+.close,
+.icon-right {
+  *display: inline;
+  *zoom: 1;
+}
+
+
+/*IE7 fixes*/
+.lt-ie8 footer, .lt-ie8 header, .lt-ie8 .arc {
+  position: static;
+}
+
+.lt-ie8 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"] { 
+    height: 20px; 
+    text-align: left;
+}
+
+.lt-ie8 .block-grid.three-up > li {
+    padding: 0;
+    width: 33%;
+}
+
+.lt-ie8 .offset-by-three {
+    margin-left:25% !important;
+}
+.lt-ie8 .offset-by-seven {
+    margin-left:58.33% !important ;
+}
+.lt-ie8 .dashboard li span {
+    cursor: pointer;
+}
+
+.lt-ie8 label.error {
+  margin: 0;
+}
+
+.lt-ie8 .columns{
+    padding: 0 1% !important;
+    position: static;
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+
+.lt-ie8 .row .one { width: 6%; }
+.lt-ie8 .row .two { width: 14%; }
+.lt-ie8 .row .three { width: 22%; }
+.lt-ie8 .row .four { width: 30%; }
+.lt-ie8 .row .five { width: 39%; }
+.lt-ie8 .row .six { width: 47%; }
+.lt-ie8 .row .seven { width: 56%; }
+.lt-ie8 .row .eight { width: 64%; }
+.lt-ie8 .row .nine { width: 72%; }
+.lt-ie8 .row .ten { width: 81%; }
+.lt-ie8 .row .eleven { width: 89%; }
+.lt-ie8 .row .twelve { width: 97%; }
+
+.lt-ie8 .dropdown-nav .sub-nav {
+    list-style-position: outside;
+}
+
+.lt-ie8 form.custom a.selector {
+    background: url("../images/arrow.png") no-repeat scroll center transparent;
+}
+
+.lt-ie8 form.custom span.custom.checkbox.checked {
+    background: url("../images/icons/mark.png") no-repeat scroll center transparent;
+}
+
+.lt-ie8 .widget {
+    width: 376px;
+    height: 241px;
+}
+
+.lt-ie8 .widget .row .five { width: 41%; }
+.lt-ie8 .widget .row .seven { width: 58%; }
+
+/* lt-ie9 fixes*/
+
+.lt-ie9 .obp-background {
+  position: relative;
+  background: none;
+}
+
+.lt-ie9 .obp-background .obp-image {
+  display: block;
+}
+
+.lt-ie9 .obp-background .obp-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: -1;
+  height: auto;
+  width: 100%;
+}
+
+.lt-ie9 body.redesign1 {
+  background-color: white;
+}
+
+.lt-ie9 .container-bg, 
+.lt-ie9 .redesign1 header, 
+.lt-ie9 .redesign1 .arc-section  {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.lt-ie9 .jvFloat .placeHolder.active {
+  top: 8px;
+}
+
+.lt-ie9 .jvFloat .placeHolder:before {
+  top: 8px;
+}

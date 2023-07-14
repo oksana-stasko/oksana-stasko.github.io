@@ -1,0 +1,20 @@
+.redesign1 .topbar_op-logo,
+.redesign1 .top-bar_op .top-bar ul.right {
+	margin-top: 0;
+}
+
+.redesign1 .contain-to-grid.top-bar_op {
+	background-position: left top;
+}
+
+.redesign1 .top-nav {
+	margin-top: 8px;
+}
+
+.redesign1 .contain-to-grid.top-bar_op { 
+	background-image: url(../images/onboarding/topbar/topbar_op-bg.png);
+}
+
+.redesign1 .top-bar_op .top-bar ul > li.divider { 
+	background-image: url(../images/onboarding/topbar/divider_op.png);
+}

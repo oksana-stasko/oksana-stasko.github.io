@@ -1,0 +1,23 @@
+.redesign1 .contain-to-grid { 
+	background: url(../images/onboarding/topbar/topbar-bg.png) repeat-x left 11px;
+}
+
+.redesign1 .top-bar { 
+	background: url(../images/onboarding/topbar/topbar-heading-bg.png) repeat-x left 11px;
+}
+
+.redesign1 .top-bar ul > li.divider { 
+	background: url(../images/onboarding/topbar/divider.png) repeat-x left 11px;
+}
+
+.redesign1 .top-bar_op .top-bar ul > li.divider { 
+	background: url(../images/onboarding/topbar/divider.png) repeat-y left 11px;
+}
+
+.redesign1 .top-bar ul > li.has-dropdown .dropdown { 
+	background: url(../images/onboarding/topbar/topbar-bg.png) repeat-x left center;
+}
+
+.redesign1 .top-bar ul.right { 
+	background: #ffffff url(../images/onboarding/topbar/topbar-bg.png) repeat-x left 11px;
+}

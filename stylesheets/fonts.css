@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'RobotoCondensedRegular';
+      src: url('fonts/robotocondensedregular.eot');
+      src: url('fonts/robotocondensedregular.eot?#iefix') format('embedded-opentype'),
+          url('fonts/robotocondensedregular.woff') format('woff'),
+          url('fonts/robotocondensedregular.ttf') format('truetype'),
+          url('fonts/robotocondensedregular.svg#robotocondensedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensedBold';
+      src: url('fonts/robotocondensedbold.eot');
+      src: url('fonts/robotocondensedbold.eot?#iefix') format('embedded-opentype'),
+          url('fonts/robotocondensedbold.woff') format('woff'),
+          url('fonts/robotocondensedbold.ttf') format('truetype'),
+          url('fonts/robotocondensedbold.svg#robotocondensedbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

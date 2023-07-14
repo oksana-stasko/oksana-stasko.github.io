@@ -1,0 +1,61 @@
+.custom-popup-box {
+	border: 1px solid #afafaf;
+	background-color: #888888;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-box-shadow: 0 0 20px rgba(34,25,25,0.4);
+  	-webkit-box-shadow: 0 0 20px rgba(34,25,25,0.4);
+  	box-shadow: 0 0 20px rgba(34,25,25,0.4);
+}
+
+.custom-popup-box .box-head {
+	padding: 7px 15px 5px;
+	background-color: #888888;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 1.125em;
+}
+
+.custom-popup-box .box-content {
+	background-color: #fff;
+	padding: 15px;
+	padding-top: 25px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	-ms-border-bottom-left-radius: 8px;
+	-ms-border-bottom-right-radius: 8px;
+	-o-border-bottom-left-radius: 8px;
+	-o-border-bottom-right-radius: 8px;
+}
+
+
+.custom-popup-box form.custom div.custom.dropdown a.current, 
+.custom-popup-box form.custom div.custom.dropdown input[type="text"],
+.custom-popup-box form.custom input,
+.custom-popup-box form.custom select {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+
+.custom-popup-box form.custom div.custom.dropdown a.current {
+	font-weight: normal;
+}
+
+.custom-popup-box label.inline {
+	font-size: 0.75em;
+}
+
+.custom-popup-box .inline.strong.right {
+	margin-right: 5px;
+}

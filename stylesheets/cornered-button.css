@@ -1,0 +1,71 @@
+.cornered-button {
+	padding-top: 20px;
+}
+
+.cornered-top,
+.cornered-bottom {
+	height: 0px;
+	cursor: pointer;
+}
+
+.cornered-top {
+	border-bottom: 12px solid #8b8b8a;
+	border-right: 12px solid transparent;
+}
+
+.cornered-bottom {
+	border-top: 12px solid #8b8b8a;
+	border-left: 12px solid transparent;    
+}
+
+.cornered-middle {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	outline: none;
+	display: block;
+	background-color: #8b8b8a;
+	color: #fff;
+	border: none;
+	font-size: 0.875em;
+	font-weight: bold;
+	font-family: inherit;
+	text-transform: none;
+	line-height: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.cornered-middle:hover {
+	color: #fff;
+}
+
+.b-active .cornered-top {
+	border-bottom: 12px solid #2eb41f;
+}
+
+.b-active .cornered-bottom {
+	border-top: 12px solid #2eb41f;
+}
+
+.b-active .cornered-middle {
+	background-color: #2eb41f;
+}
+
+.b-cancel .cornered-top {
+	border-bottom: 12px solid #a1a1a1;
+}
+
+.b-cancel .cornered-bottom {
+	border-top: 12px solid #a1a1a1;
+}
+
+.b-cancel .cornered-middle {
+	background-color: #a1a1a1;
+}
+
+a.cornered-middle:focus,
+a.cornered-middle,
+button.cornered-middle:focus {
+	color: #fff;	
+}

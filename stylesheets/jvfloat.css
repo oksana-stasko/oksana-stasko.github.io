@@ -1,0 +1,88 @@
+/*
+ * Default jvFloat theme.
+ * modify it as you wish!
+ */
+
+ .jvFloat {
+ 	/*position: relative;*/
+ 	display: inline;
+ 	margin-top: 8px;
+ }
+
+ .jvFloat .placeHolder.required {
+ 	color: red;
+ }
+
+ /* Start CSS3 Animations on supported browser */
+ .jvFloat .placeHolder {
+ 	position: absolute;
+ 	z-index: 200;
+ 	/*top: 5px;*/
+ 	left: 0;
+ 	width: auto;
+ 	height: 30px;
+ 	color: #821982;
+ 	font-size: 0.8125em;
+ 	font-weight: bold;
+ 	-webkit-transform: translate(0, 0);
+ 	-moz-transform: translate(0, 0);
+ 	-o-transform: translate(0, 0);
+ 	-ms-transform: translate(0, 0);
+ 	transform: translate(0, 0);
+ 	-webkit-transition: -webkit-transform 150ms, opacity 100ms, visibility 100ms;
+ 	transition: transform 150ms, opacity 100ms, visibility 100ms;
+ 	opacity: 0;
+ 	visibility: hidden;
+ 	white-space: nowrap;
+ }
+
+ .jvFloat .placeHolder:before {
+ 	width: 100%;
+ 	height: 1px;
+ 	background: #fff;
+ 	content: ' ';
+ 	position: absolute;
+ 	top: 8px;
+ 	z-index: -1;
+ }
+
+/*Allows textarea floating placeholder to be positioned distinctly from the normal .placeHolder class
+ * This is required when working with Multiline text areas
+ */
+ .jvFloat .placeHolder.textarea {
+ 	/*top: 0px;*/
+ }
+
+ .jvFloat .placeHolder.active {
+ 	display: block;
+ 	padding-left: 4px;
+ 	visibility: visible;
+ 	-webkit-transform: translate(0, -8px);
+ 	-moz-transform: translate(0, -8px);
+ 	-o-transform: translate(0, -8px);
+ 	-ms-transform: translate(0, -8px);
+ 	transform: translate(0, -8px);
+ 	-webkit-transition: -webkit-transform 100ms, opacity 120ms, visibility 120ms;
+ 	transition: transform 100ms, opacity 120ms, visibility 120ms;
+ 	opacity: 1;
+
+ }
+ /* End CSS3 */
+
+ /* Legacy browser */
+/*.jvFloat .placeHolder {
+	position: absolute;
+	top: -8px;
+	left: 0;
+	color: #821982;
+	font-size: .85em;
+	font-weight: bold;
+	opacity: 0;
+	visibility: hidden;
+}
+.jvFloat .placeHolder.active {
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}*/
+/* End Legacy */

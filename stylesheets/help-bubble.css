@@ -1,0 +1,39 @@
+.help-icon {
+  text-align: center;
+  float: right;
+  display: inline-block;
+  margin-top: 5px;
+  width: 23px;
+  height: 22px;
+  background: url(../images/icons/question.png) no-repeat left top;
+  cursor: pointer;
+}
+
+
+.help-bubble {
+/* position: absolute;
+  display: none; */
+  z-index: 100;
+  width: 200px;
+  font-size: 0.8441em;
+  line-height: 1.231;
+  color: #878787;
+}
+
+.help-bubble .content {
+  padding: 0 12px;
+  background-color: #fff;
+  border: 1px solid #878787;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.help-bubble .corner {
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 14px;
+  height: 12px;
+  background: url(../images/help_bubble-corner.png) no-repeat left top;
+}
